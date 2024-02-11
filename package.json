@@ -1,0 +1,34 @@
+{
+  "name": "pie_chart",
+  "version": "1.0.0",
+  "description": "A lib to create piechart",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "prepare":"npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rushikesh10042001/pie_chart.git"
+  },
+  "keywords": [
+    "piecahrt draw",
+    "piechart create"
+  ],
+  "author": "rushikesh <rushikesh.wyawahare@fractal.ai>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/rushikesh10042001/pie_chart/issues"
+  },
+  "homepage": "https://github.com/rushikesh10042001/pie_chart#readme",
+  "devDependencies": {
+    "@types/d3": "^7.4.3",
+    "typescript": "^5.3.3"
+  },
+  "dependencies": {
+    "chart.js": "^4.4.1",
+    "d3": "^7.8.5"
+  },
+  "files":["lib/**/*"]
+}
